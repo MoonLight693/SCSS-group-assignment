@@ -64,7 +64,7 @@ nav {
     background-color: #FFE19C;
 }
 
-    /*
+ 
     li a {
     display: block;
     align-items: center;
@@ -72,7 +72,7 @@ nav {
     padding: 8px 16px;
     text-decoration: none;
     }
-    */
+
 
     /* Change the link color on hover */
     li a:hover {
