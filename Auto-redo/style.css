@@ -1,3 +1,4 @@
+/*sets all text to cursive style*/
 * {
     font-family: cursive;
 }
@@ -7,16 +8,8 @@ input:focus{
 
 }
 
-/*text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 210px;
-*/
 head{
-
     margin: auto ;
-
 }
 .header {
 text-align: center;
@@ -31,11 +24,6 @@ top: 0; /* Sticks to the top */
 z-index: 1000; /* Ensures it stays on top of other content */
 }
 
-
-
-
-
-
 .header a {
 float: left;
 color: black;
@@ -47,7 +35,7 @@ line-height: 25px;
 border-radius: 4px;
 }
 
-
+/*makes bullets bump up against text*/
 ul.no-bullets {
     list-style-type: none;
 }
@@ -98,7 +86,6 @@ nav {
 }
 
 .header img {
-
     float: left;
     width: 95px;
     height: 95px;
@@ -112,52 +99,22 @@ nav {
     }
 
     h1 {
-    /*font-family: Cursive;*/
     font-size: px;
 }
 
     h2 {
-        /*font-family: Cursive;*/
         font-size: 30px;
     }
-
-    /*
-    h3 {
-
-        font-family: cursive;
-        font-weight: Cursive;
-    }
-
-    h4 {
-        font-family: cursive;
-    }
-
-    h5 {
-        font-family: cursive;
-    }
-
-
-    p,a {
-        font-family: cursive;
-    }
-
-    #text {
-        font-family: cursive;
-    }
-    */
 
     textarea:focus {
     background: pink;
     }
 
-
     article{
-
         margin-top: 100px;
         margin-bottom: 100px;
         margin-right: 80px;
         margin-left: 80px;
-
     }
 
     ul{
@@ -165,13 +122,13 @@ nav {
         margin-bottom: 100px;
         margin-right: 80px;
         margin-left: 80px;
-
     }
 
     figcaption {
         font-weight: bold;
         font-size: 1.1em;
     }
+
 #Parts img, embed {
     /*size adjusted to the width of the screen allowing the style to always
      have the row of images lined up*/
@@ -234,5 +191,7 @@ audio::-webkit-media-controls-time-remaining-display {
     background-color: #f5f5f5;
 }
 
+/*makes table have "zebra" style*/
 tr:nth-child(even) {background-color: #f2f2f2;}
+/*makes row orange when hovered over*/
 tr:hover {background-color: coral;}
