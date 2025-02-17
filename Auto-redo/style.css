@@ -23,7 +23,15 @@ text-align: center;
 overflow: hidden;
 background-color: #FF784F;
 padding: 20px 10px;
+
+
+position: sticky;
+top: 0; /* Sticks to the top */
+
+z-index: 1000; /* Ensures it stays on top of other content */
 }
+
+
 
 
 
@@ -92,8 +100,8 @@ nav {
 .header img {
 
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 95px;
+    height: 95px;
     background: #555;
     }
 
@@ -105,7 +113,7 @@ nav {
 
     h1 {
     /*font-family: Cursive;*/
-    font-size: 60px;
+    font-size: px;
 }
 
     h2 {
