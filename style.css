@@ -1,0 +1,115 @@
+input:focus{
+    background:#EDFFD9
+
+}
+
+/*text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+*/
+head{
+
+    margin: auto ;
+
+}
+.header {
+text-align: center;
+overflow: hidden;
+background-color: #FF784F;
+padding: 20px 10px;
+}
+
+
+
+.header a {
+float: left;
+color: black;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+
+h6{
+
+    text-align: center;
+    background-color:#FFE19C;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    }
+
+nav {
+    border:15px solid #EDFFD9;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    background-color: #FFE19C;
+}
+
+    li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    li a:hover {
+    background-color: #555;
+    color: #FF784F;
+    }   
+
+.center {
+    text-align: center;
+}
+
+.image_space {
+    border: 15px solid #FF784F;
+
+}
+
+.header img {
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #555;
+    }
+
+    .header h1 {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    }
+
+    h1 {
+    font-family:Impact;
+    font-size: 60px;
+}
+
+    h2 {
+        font-family: Cursive;
+        font-size: 30px;
+    }
+
+    h3 {
+
+        font-weight: bolder;
+    }
+
+
+    p,a {
+        font-family: cursive;
+    }
+
+    textarea:focus {
+    background: pink;
+    }
