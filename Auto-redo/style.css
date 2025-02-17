@@ -169,3 +169,44 @@ nav {
     border-radius: 85%;
     border: #000 dotted 4px;
 }
+
+#Media video {
+    margin: 10px;
+    width: 55%;
+    height: 65%;
+    border: #FF784F 5px solid;
+}
+
+#Media iframe {
+    margin: 10px;
+    position: relative;
+    height: 65vh;
+    width: 55%;
+    border: #FF784F 5px solid;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color:  #FF784F ;
+}
+
+audio::-webkit-media-controls-mute-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
+}
+  
+audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: #00f3fb;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color:  #00f3fb;
+}
