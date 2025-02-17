@@ -123,3 +123,13 @@ nav {
         margin-left: 80px;
 
     }
+#Parts img, embed {
+    /*size adjusted to the width of the screen allowing the style to always
+     have the row of images lined up*/
+    size: 15%;
+    width: 15%;
+    max-height: 600px;
+    min-height: 600px;
+    border-radius: 85%;
+    border: #000 dotted 4px;
+}
