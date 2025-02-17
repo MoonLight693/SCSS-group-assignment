@@ -141,3 +141,31 @@ nav {
     textarea:focus {
     background: pink;
     }
+
+
+    article{
+
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 80px;
+        margin-left: 80px;
+
+    }
+
+    ul{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 80px;
+        margin-left: 80px;
+
+    }
+#Parts img, embed {
+    /*size adjusted to the width of the screen allowing the style to always
+     have the row of images lined up*/
+    size: 15%;
+    width: 15%;
+    max-height: 30%;
+    min-height: 30%;
+    border-radius: 85%;
+    border: #000 dotted 4px;
+}
