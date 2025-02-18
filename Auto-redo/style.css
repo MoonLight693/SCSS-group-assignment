@@ -17,6 +17,7 @@ overflow: hidden;
 background-color: #FF784F;
 padding: 20px 10px;
 
+text-shadow: 2px 2px gray;
 
 position: sticky;
 top: 0; /* Sticks to the top */
